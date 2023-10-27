@@ -1,0 +1,5 @@
+kind: compute#urlMap
+name: loadbalancer_internal
+defaultUrlRedirect:
+   redirectResponseCode: MOVED_PERMANENTLY_DEFAULT
+   httpsRedirect: True
